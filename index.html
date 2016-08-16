@@ -1,0 +1,222 @@
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="theme.css">
+		<link href="index.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		
+		
+		<meta name="application-name" content="3310 Project Website">
+		<meta name="author" content="Orange Robot">
+		<meta name="description" content="Website created just for my 3310 class | Professor: Vicki Sauter | Hopefull this is a good webpage">
+		
+		<!--Javascript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script>$(document).ready(function() {
+  function filterPath(string) {
+    return string
+      .replace(/^\//,'')  
+      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')  
+      .replace(/\/$/,'');
+  }
+  $('a[href*=#]').each(function() {
+    if ( filterPath(location.pathname) == filterPath(this.pathname)
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+         $(this).click(function() {
+           $('html, body').animate({scrollTop: targetOffset}, 2000);
+           return false;
+         });
+      }
+    }
+  });
+});</script>
+<style>
+
+</style>	
+</head>
+	
+<body class="w3-light-blue">
+	<div class="nav">
+		<ul class="hori">
+			<li class="horilist"><a class="astyle" href="#About" >About</a></li>
+			<li class="horilist"><a class="astyle" href="#Experience">Experience</a></li>
+			<li class="horilist"><a class="astyle" href="#skills">Skills</a></li>
+			<li class="horilist"><a class="astyle" href="#Evaluation">Evaluation</a></li>
+			<li class="horilist"><a class="astyle" href="#contact">Contact</a></li>	
+		</ul>
+	</div>
+	
+	<div id="page1" class="w3-sand">
+		<a id="About" class="smooth"></a>
+		<br/><br/>
+		<br/>
+	<div id="head">
+	<div id="lefthead">
+		<div class="w3-jumbo w3-text-shadow" style="font-family:Copperplate, 'Copperplate Gothic Light', fantasy; padding:0px; margin:0px;">Mr.Robot </div>
+		<div style="font-family:Copperplate, 'Copperplate Gothic Light', fantasy; padding:0px; margin:0px;">Web Design and App Developer</div>
+	</div>
+		
+	<div id="righthead">
+			myumslemail@gmail.com<br/>
+			<a href="http://www.umsl.edu/">www.umsl.edu</a><br/>
+			314-555-8862<br/>
+			Fenton, Missouri
+	</div>
+	</div>
+			<hr class="style-two">
+		
+		<div class="w3-card-16 w3-white" style="width:38%; height:35%; float:left; margin: 10px;">
+			<!--
+				<header class="w3-container w3-orange w3-text-white">
+					<h1>Header</h1>
+				</header>
+			-->
+				<img src="images/image.jpg" alt="My Objective" style="width: 98%"; >
+		</div>
+		
+			<div class="w3-xxxlarge w3-text-shadow"  style="margin:10px;" id="headstyle">About Me</div><hr class="style-two">	
+			
+			<p>Hello I live in the humble city of Fenton in Missouri. It's a small little town that contains several attractions and has several cultural restaurants. Though the flood a month back did make my town in to secluded island and I did enjoy the silence. My town has a pretty big park and I always like walking my dogs there I believe it is also located next to the local strip club.</p>
+			
+			<p>UMSL GPA:2.95   |   Business GPA:2.80   |   MIS GPA:3.30</p>
+			
+	</div>
+
+	<div id="page2" class="w3-sand">
+		<a id="Experience" class="smooth"></a>
+		
+		<br/>
+<hr class="style-two">
+
+		<div class="w3-xxxlarge w3-text-shadow"  style="margin:10px;" id="headstyle">My Experience</div>
+		<hr class="style-two">	
+		<p class="w3-xlarge">Senior IT Consultant | Instructional Support | January 2014 - Present</p>
+		<ul class="workstyle">
+			<li>Manage a high volume workload within a deadline-driven environment.</li>
+			<li>Plan and led faculty training workshops on how to use newly acquired campus technology. </li>
+			<li>Assisted customers in potentially stressful situations providing service in a calm, confident manner.</li>
+			<li>Created, organized, and set up knowledge database that housed troubleshooting procedures, manuals and schematics for department. </li>
+			<li>Configure and implement new system for computerized inventory resulting in a more user friendly experience</li>
+			<li>Supervise and trained a diverse student staff servicing classroom technology and computer labs </li>
+			<li>Oversaw and delegate workload to ensure proper coverage.</li>
+			<li>Oversaw and manage short and long-term software/hardware implementation projects and department initiatives. </li>
+		</ul>
+		<p>
+			In addition to my work experience I have studied networking, web and computer programming classes in high school. I am also currently working towards getting my CompTIA A+ and Network+ certification.
+		</p>
+			
+	</div>
+
+	<div id="page3" class="w3-sand">
+		<a id="skills" class="smooth"></a>
+		<br/>
+<hr class="style-two">
+			<div class="w3-xxxlarge w3-text-shadow"  style="margin:10px;" id="headstyle">My Skills</div>
+			<hr class="style-two">	
+			
+		
+		<ul class="workstyle2">
+			<li class="w3-xlarge" style="list-style-type:none;">Computer Skills</li>
+			<li>Microsoft Office</li>
+			<li>Adobe Dreamweaver</li>
+			<li>HTML Language</li>
+			<li>CSS Language</li>
+			<li>W3 CSS Language</li>
+			<li>Knowledge of Angular JS</li>
+			<li>OS(XP, 7, 8.1, 10, Linux)</li>
+			<li>JavaScript Language</li>
+			<li>Java Language</li>
+		</ul>
+		
+		<ul class="workstyle2">
+			<li class="w3-xlarge" style="list-style-type:none;">Supervisory Skills</li>
+			<li>Technical expertise</li>
+			<li>Planning Projects</li>
+			<li>Creativity</li>
+			<li>Training and Development</li>
+			<li>Clear Communication</li>
+			<li>Problem Solving</li>
+			<li>Emotional Intelligent</li>
+			<li>Ability to delegate</li>
+			<li style="list-style-type:none;"><br/></li>
+		</ul>
+		
+		<ul class="workstyle2">
+			<li class="w3-xlarge" style="list-style-type:none;">Other Skills</li>
+			<li>Public Speaking Skills</li>
+			<li>Well Organized</li>
+			<li>Critical and Fast Thinker</li>
+			<li>Resourceful</li>
+			<li>Circuit Repair</li>
+			<li>Basics of Wiring Components</li>
+			<li>Schematic Reading</li>
+			<li style="list-style-type:none;"><br/></li>
+			<li style="list-style-type:none;"><br/></li>
+		</ul>
+		
+	</div>
+
+	<div id="page4" class="w3-sand">
+		<a id="Evaluation" class="smooth"></a>
+		
+		<br/>
+<hr class="style-two">
+
+			<div class="w3-xxxlarge w3-text-shadow"  style="margin:10px;" id="headstyle">Self-Evaluation</div>
+			<hr class="style-two">	
+			<div class="w3-xlarge">Ability to coordinate team projects</div>
+				<ul>
+					<li>9/10</li>
+					<li>I helped coordinate the testing of the new computers and softwares in SSB 103.</li>
+				</ul>
+		
+			<div class="w3-xlarge">Creativity</div>
+		<div class="w3-card-16 w3-white" style="width:25%; height:35%; float:right; margin: 10px;">
+			<img src="images/image2.jpg" alt="Self Evaluation" style="width: 80%"; >
+		</div>
+				<ul>
+					<li>5/10</li>
+					<li>This webpage is an example but I can't draw.</li>
+				</ul>
+			<div class="w3-xlarge">Communication Skills</div>
+				<ul>
+					<li>7/10</li>
+					<li>I rate my communication as a 7/10 it really depends on the topic and my knowledge on the topic.</li>
+				</ul>
+			<p>Strength: Listening, Organized, Goal-Oriented, Interpersonal Skills, People Oriented, Perfectionist </p>
+			<p>Weakness: Can't Draw, Social Anxiety, Insecurity, Procrastinator, Low Stress Tolerance </p>
+			
+	</div>
+	
+	
+	<div id="page5" class="w3-sand">
+		<a id="contact" class="smooth"></a>
+		<br/>
+<hr class="style-two">
+
+<div class="w3-xxxlarge w3-text-shadow"  style="margin:10px;" id="headstyle">Contact</div>
+<hr class="style-two">	
+<div class="w3-card-16 w3-white" style="";>
+			<img src="images/image3.png" alt="Schedule" style="width: 50%; float:right;" >
+		</div> 	
+
+		<div class="w3-large">To my right is my class schedule and listed below is my work schedule: </div>
+			<ul class="workstyle2" style="font-size: 18px">
+				<li>Monday: 	7am - 12pm</li>
+				<li>Tuesday: 	5:30pm - 10:30pm</li>
+				<li>Wednesday: 	I am free till 6:55pm</li>
+				<li>Thursday: 	12pm - 3:30pm</li>
+				<li>Friday:		7am - 2pm</li>
+			</ul>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<hr class="style-two">	
+	</div>
+</body>
+</html>

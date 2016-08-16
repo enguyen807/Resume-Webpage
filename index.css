@@ -1,0 +1,125 @@
+.js #someSelector {display: none;}
+.otherStuff { color: blue; }
+.no-js .otherStuff { color: green }
+
+#page1 	{height:600px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 55%;
+		-webkit-box-shadow: 0 8px 6px -6px black;
+		-moz-box-shadow: 0 8px 6px -6px black;
+		box-shadow: 0px 8px 50px -6px black;
+	
+		
+}
+
+#headstyle {font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;}
+
+#page2	{height:600px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 55%;
+		-webkit-box-shadow: 0 8px 6px -6px black;
+		-moz-box-shadow: 0 8px 6px -6px black;
+		box-shadow: 0 -10px 50px -6px black;
+		
+}
+#page3	{height:600px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 55%;
+		-webkit-box-shadow: 0 8px 6px -6px black;
+		-moz-box-shadow: 0 8px 6px -6px black;
+		box-shadow: 0 -10px 50px -6px black;
+		
+}
+#page4	{height:600px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 55%;
+		-webkit-box-shadow: 0 8px 6px -6px black;
+		-moz-box-shadow: 0 8px 6px -6px black;
+		box-shadow: 0 -10px 50px -6px black;
+		
+}
+#page5	{height:600px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 55%;
+		-webkit-box-shadow: 0 8px 6px -6px black;
+		-moz-box-shadow: 0 8px 6px -6px black;
+		box-shadow: 0 -10px 50px -6px black;
+
+}
+#head { 
+    display: flex;
+    justify-content: space-between;}
+
+
+/*float: left;
+			position: relative;
+			left: 10%;
+			
+#lefthead{display:inline-block;}
+*/
+#righthead {font-family: Copperplate,"Copperplate Gothic Light",fantasy;}
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+ul.hori{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c6cccc;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border: 1px solid #e7e7e7;
+	text-align: center;
+	font-size: 25px;
+	-webkit-box-shadow: 0 2px 6px -6px black;
+	-moz-box-shadow: 0 2px 6px -6px black;
+	box-shadow: 0 2px 50px -6px black;
+	
+	
+}
+
+li.horilist {
+    display:inline-block;
+	*display:inline;
+	*zoom:1;
+	margin-right:10px;
+	
+}
+
+li a.astyle {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 50px;
+    text-decoration: none;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+}
+
+li a.astyle:hover:not(.active) {
+    background-color: #ff9933;
+}
+
+p{font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;}
+
+ul{font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;}
+
+ul.workstyle2{
+	margin: 0 100px 0 0;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+	}
